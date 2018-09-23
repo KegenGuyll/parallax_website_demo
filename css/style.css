@@ -67,6 +67,7 @@ body,html{
 
 .ptext .border{
     background-color: #003f36;
+    background-position: center;
     color: #fff;
     padding:20px;
 }
@@ -80,4 +81,9 @@ body,html{
     .pimg1, .pimg2, .pimg3{
         background-attachment: scroll;
     }
+}
+
+nav{
+    background-color: #003f36 !important;
+    opacity: 0.95;
 }
