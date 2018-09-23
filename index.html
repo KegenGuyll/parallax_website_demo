@@ -1,24 +1,47 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
+    <!--Import jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Parallax Website Demo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 <body>
-    <div class="pimg1">
+    <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper center">
+            <a onclick="home()" class="brand-logo">Logo</a>
+            <ul class="right hide-on-med-and-down">
+              <li><a onclick="section1()">Section One</a></li>
+              <li><a onclick="section2()">Section Two</a></li>
+              <li><a onclick="section3()">Section Three</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+    <div id="home">
+      <div class="pimg1">
         <div class="ptext">
             <span class="border">
                 title
             </span>
         </div>
+    </div>  
     </div>
+    
 
-    <section class="section section-dark">
+    <div id=section1>
+        <section class="section section-dark">
         <h2>Section One</h2>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, molestias.
@@ -31,16 +54,19 @@
              adipisci consectetur distinctio numquam necessitatibus labore culpa eum suscipit iusto deleniti!
         </p>
     </section>
+    </div>
+    
 
     <div class="pimg2">
         <div class="ptext">
-            <span class="border">
+            <span class="border" id='mydiv'>
                 Sample Text 1
             </span>
         </div>
     </div>
 
-    <section class="section section-dark">
+    <div id=section2>
+        <section class="section section-dark">
         <h2>Section Two</h2>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, molestias.
@@ -52,6 +78,8 @@
              atque doloremque dolores, dicta omnis? Accusamus, 
         </p>
     </section>
+    </div>
+    
 
     <div class="pimg3">
         <div class="ptext">
@@ -61,6 +89,7 @@
         </div>
     </div>
 
+    <div id="section3">
     <section class="section section-dark">
         <h2>Section Three</h2>
         <p>
@@ -73,6 +102,8 @@
              atque doloremque dolores, dicta omnis? Accusamus, 
         </p>
     </section>
+    </div>
+    
 
     <div class="pimg1">
         <div class="ptext">
