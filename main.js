@@ -14,3 +14,21 @@ function section3() {
   function home() {
     document.getElementById('home').scrollIntoView({block: 'start', behavior: 'smooth'});
   }
+
+  var width = screen.width;
+  var height = screen.height;
+
+  if (width <= 568){
+    console.log("mobile")
+    $(document).ready(function(){
+      $("div").removeClass("row");
+});
+  }
+  else{
+    console.log("web");
+    $(document).ready(function(){
+      $("#row").addClass("row");
+    })
+  }
+
+  

@@ -6,6 +6,7 @@ body,html{
     font-weight: 400;
     line-height: 1.8em;
     color:#666;
+    background-color: #d8d8d8;
 
 }
 
@@ -86,4 +87,15 @@ body,html{
 nav{
     background-color: #003f36 !important;
     opacity: 0.95;
+}
+ .page-footer{
+     background-color:#282e34 !important;
+ }
+
+ .page-footer .footer-copyright{
+     background-color: #23282d !important;
+ }
+
+ .card{
+    background-color: rgb(35, 40, 45) !important;
 }
