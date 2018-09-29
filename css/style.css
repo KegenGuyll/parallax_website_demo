@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:700');
+
 body,html{
     height: 100%;
     margin:0;
@@ -73,6 +75,13 @@ body,html{
     padding:20px;
 }
 
+.border2{
+    
+    margin: auto;
+
+   
+}
+
 .ptext .border.trans{
     background-color: transparent;
     color: #282e34;
@@ -98,4 +107,59 @@ nav{
 
  .card{
     background-color: rgb(35, 40, 45) !important;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 3rem;
+}
+
+h1, h2{
+    font-weight: 200;
+    margin: 0.4rem;
+    color: #ddd;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+    
+}
+
+h2{
+    font-size: 2rem;
+    color: #aaa;
+}
+
+/* Cursor*/
+.txt-type > .txt{
+    border-right: 0.2rem solid #777;
+}
+
+@media(min-width:1200px){
+    h1{
+        font-size: 5rem;
+    }
+}
+
+@media(max-width:800px){
+    .container2{
+        padding:0 1rem;
+    }
+    
+    h1{
+        font-size: 3rem;
+    }
+}
+
+@media(max-width:500px){
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
 }
